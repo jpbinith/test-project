@@ -4,8 +4,8 @@
   "description": "",
   "main": "./dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node ./lib/server.ts",
+    "test": "ts-node ./lib/server.ts",
+    "dev": "tsc && nodemon ./dist/araksha/lib/server.js",
     "prod": "tsc && nodemon ./dist/araksha/lib/server.js"
   },
   "author": "",
