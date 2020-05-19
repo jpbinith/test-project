@@ -5,8 +5,8 @@
   "main": "./dist/server.js",
   "scripts": {
     "test": "ts-node ./lib/server.ts",
-    "dev": "tsc && nodemon ./dist/araksha/lib/server.js",
-    "prod": "tsc && nodemon ./dist/araksha/lib/server.js"
+    "dev": "tsc && nodemon ./dist/server.js",
+    "prod": "tsc && nodemon ./dist/server.js"
   },
   "author": "",
   "license": "ISC",
